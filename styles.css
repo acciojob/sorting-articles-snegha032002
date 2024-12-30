@@ -1,21 +1,35 @@
-/*  your css code here. If applicable */
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+    font-family: Arial, sans-serif;
+    background-image: url('https://source.unsplash.com/random/1600x900?nature');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-h1 {
-  color: #333;
+ul#band {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    width: 300px;
+    text-align: left;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+ul#band li {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
 }
 
-li {
-  font-size: 18px;
-  margin: 5px 0;
-  color: #555;
+ul#band li:last-child {
+    border-bottom: none;
 }
 
